@@ -1,0 +1,140 @@
+
+/* 1. Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Style the whole webpage */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 3. Style the form container */
+.container {
+    background-color: white;
+    width: 380px;
+    padding: 30px;
+    border-radius: 15px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* 4. Style the heading */
+h2 {
+    text-align: center;
+    color: #243b55;
+    margin-bottom: 25px;
+}
+
+/* 5. Style text input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+/* 6. Style the dropdown */
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 15px;
+    background-color: white;
+}
+
+/* 7. Style radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: #007bff;
+}
+
+/* 8. Style gender section */
+.gender {
+    margin-bottom: 15px;
+}
+
+/* 9. Style hobbies section */
+.hobbies {
+    margin-bottom: 20px;
+}
+
+/* 10. Style labels */
+label {
+    color: #333;
+    font-size: 14px;
+}
+
+/* 11. Style the buttons */
+button {
+    width: 100%;
+    padding: 12px;
+
+    background-color: #007bff;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 12. Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 13. Style paragraph */
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* 14. Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* 15. Link hover effect */
+a:hover {
+    text-decoration: underline;
+}
+
+/* 16. Input focus effect */
+input:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* 17. Make the form responsive */
+@media (max-width: 450px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
